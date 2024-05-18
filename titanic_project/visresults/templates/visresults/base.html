@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block head %}
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    {% endblock %}
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Comparison of classifiers</h2>
+            <p>This is a summary of results of experiments on 'titanic dataset' data using different classifiers.</p>
+        </div>
+        <div class="tools">
+            <div class="tool">
+                <a href="/">Home</a>
+            </div>
+            <div class="tool">
+                <a href="/data">Show dataset</a>
+            </div>
+            <div class="tool">
+                <a href="/vis">Show result</a>
+            </div>
+
+        </div>
+        <div class="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+    </div>
+</body>
+
+</html>

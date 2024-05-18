@@ -1,0 +1,281 @@
+,cross_val_dict,accuracy_dict,best_estimators
+"Voting Classifier Soft tuned ['pclass', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8998302207130731,0.7862595419847328,
+"Voting Classifier Soft tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded', 'deck_encoded_no_missing', 'multiple_cabins', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8981324278438031,0.7786259541984732,
+"Voting Classifier Soft tuned ['pclass', 'sibsp', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8904923599320883,0.7786259541984732,
+"Voting Classifier Soft tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8862478777589134,0.7862595419847328,
+"Voting Classifier Soft tuned ['pclass', 'family_size', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8845500848896435,0.8015267175572519,
+"Voting Classifier Soft tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person', 'fare']",0.8845500848896435,0.7786259541984732,
+"Voting Classifier Soft tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8820033955857386,0.7862595419847328,
+"Voting Classifier Hard tuned ['pclass', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8803056027164686,0.7938931297709924,
+"Voting Classifier Soft tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person']",0.8777589134125636,0.7786259541984732,
+"Voting Classifier Hard tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded', 'deck_encoded_no_missing', 'multiple_cabins', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8760611205432938,0.7633587786259542,
+"Voting Classifier Soft tuned ['family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_scaled']",0.8726655348047538,0.7709923664122137,
+"Voting Classifier Hard tuned ['pclass', 'sibsp', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8718166383701188,0.7938931297709924,
+"Voting Classifier Hard tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person', 'fare']",0.8675721561969439,0.7633587786259542,
+"Voting Classifier Hard tuned ['pclass', 'family_size', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.866723259762309,0.7862595419847328,
+"Voting Classifier Soft tuned ['pclass', 'fare_per_person', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded']",0.866723259762309,0.7480916030534351,
+"Voting Classifier Soft tuned ['sibsp', 'family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8641765704584041,0.7709923664122137,
+"Voting Classifier Hard tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8556876061120543,0.7938931297709924,
+"Voting Classifier Hard tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8548387096774194,0.7938931297709924,
+"Voting Classifier Soft tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned']",0.8548387096774194,0.7862595419847328,
+"Voting Classifier Hard tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person']",0.8548387096774194,0.7709923664122137,
+"Voting Classifier Hard tuned ['family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_scaled']",0.8539898132427843,0.7862595419847328,
+"Voting Classifier Hard tuned ['sibsp', 'family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8455008488964346,0.7633587786259542,
+"Voting Classifier Hard tuned ['pclass', 'fare_per_person', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded']",0.8455008488964346,0.7557251908396947,
+"Voting Classifier Hard tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned']",0.8421052631578947,0.7786259541984732,
+"Voting Classifier Soft tuned ['family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8378607809847198,0.8091603053435115,
+"Voting Classifier Soft tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch']",0.8285229202037352,0.7709923664122137,
+"Voting Classifier Soft tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp']",0.8276740237691002,0.7709923664122137,
+"Voting Classifier Hard tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp']",0.8259762308998302,0.7786259541984732,
+"Voting Classifier Hard tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch']",0.8242784380305602,0.7709923664122137,
+"Voting Classifier Soft tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size']",0.8234295415959253,0.8015267175572519,
+"Voting Classifier Hard tuned ['family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8217317487266553,0.8015267175572519,
+"Voting Classifier Hard tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size']",0.8217317487266553,0.7938931297709924,
+"Random Forest Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch']",0.8182529335071708,0.7786259541984732,"RandomForestClassifier(max_depth=19, max_features=0.3486659872917294,
+                       min_samples_leaf=7, min_samples_split=10,
+                       n_estimators=938, random_state=42)"
+"XGBoost Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size']",0.8173765029697233,0.8015267175572519,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"Random Forest Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp']",0.8165435317977691,0.7862595419847328,"RandomForestClassifier(max_depth=64, max_features=0.4667628932479799,
+                       min_samples_leaf=5, min_samples_split=8, n_estimators=30,
+                       random_state=42)"
+"Random Forest Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size']",0.8165290453426046,0.7862595419847328,"RandomForestClassifier(max_depth=32, max_features=0.6331014572732679,
+                       min_samples_leaf=9, min_samples_split=10,
+                       n_estimators=108, random_state=42)"
+"SVM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size']",0.8165218021150225,0.7938931297709924,"SVC(C=3.745401188473625, probability=True, random_state=42)"
+"LightGBM Classifier tuned ['pclass', 'fare_per_person', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded']",0.8157395335361437,0.7709923664122137,"LGBMClassifier(learning_rate=0.18182496720710062, max_depth=21,
+               n_estimators=170, random_state=42, verbosity=0)"
+"Decision Tree Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size']",0.8157033173982328,0.7709923664122137,"DecisionTreeClassifier(max_depth=88, min_samples_leaf=12, min_samples_split=7,
+                       random_state=42)"
+"Random Forest Classifier tuned ['pclass', 'fare_per_person', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded']",0.8156960741706504,0.7633587786259542,"RandomForestClassifier(max_depth=19, max_features=0.7259556788702394,
+                       min_samples_leaf=3, n_estimators=929, random_state=42)"
+"Decision Tree Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch']",0.8156960741706504,0.7709923664122137,"DecisionTreeClassifier(max_depth=89, min_samples_leaf=14, min_samples_split=19,
+                       random_state=42)"
+"Decision Tree Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp']",0.8156888309430682,0.7786259541984732,"DecisionTreeClassifier(max_depth=89, min_samples_leaf=14, min_samples_split=19,
+                       random_state=42)"
+"SVM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch']",0.815681587715486,0.7938931297709924,"SVC(C=5.986584841970366, probability=True, random_state=42)"
+"SVM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp']",0.8156743444879039,0.7938931297709924,"SVC(C=3.745401188473625, probability=True, random_state=42)"
+"Random Forest Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8156743444879038,0.8091603053435115,"RandomForestClassifier(max_depth=3, max_features=0.5908929431882418,
+                       min_samples_leaf=4, min_samples_split=4,
+                       n_estimators=520, random_state=42)"
+"Random Forest Classifier tuned ['family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8148486165435319,0.7709923664122137,"RandomForestClassifier(max_depth=71, max_features=0.289751452913768,
+                       min_samples_leaf=2, min_samples_split=11,
+                       n_estimators=566, random_state=42)"
+"SVM Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned']",0.8148486165435319,0.7938931297709924,"SVC(C=1.4092422497476265, probability=True, random_state=42)"
+"Random Forest Classifier tuned ['pclass', 'family_size', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8148413733159495,0.7709923664122137,"RandomForestClassifier(max_depth=78, max_features=0.3910606075732408,
+                       min_samples_leaf=18, min_samples_split=9,
+                       n_estimators=397, random_state=42)"
+"XGBoost Classifier tuned ['pclass', 'fare_per_person', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded']",0.8148196436332029,0.7709923664122137,"XGBClassifier(colsample_bytree=0.864803089169032, gamma=3.1877873567760657,
+              learning_rate=0.8872127425763265, max_depth=65, n_estimators=748,
+              random_state=42, scale_pos_weight=1.295942459383017,
+              subsample=0.8566223936114975)"
+"XGBoost Classifier tuned ['pclass', 'sibsp', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8140591047370709,0.7938931297709924,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"XGBoost Classifier tuned ['pclass', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8140156453715776,0.7862595419847328,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"Random Forest Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded', 'deck_encoded_no_missing', 'multiple_cabins', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8139866724612487,0.8015267175572519,"RandomForestClassifier(max_depth=3, max_features=0.5908929431882418,
+                       min_samples_leaf=4, min_samples_split=4,
+                       n_estimators=520, random_state=42)"
+"XGBoost Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp']",0.8139866724612487,0.8015267175572519,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"LightGBM Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded', 'deck_encoded_no_missing', 'multiple_cabins', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8139794292336665,0.7709923664122137,"LGBMClassifier(learning_rate=0.03142918568673425, max_depth=52,
+               n_estimators=105, random_state=42, verbosity=0)"
+"Random Forest Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8139794292336665,0.8091603053435115,"RandomForestClassifier(max_depth=3, max_features=0.5908929431882418,
+                       min_samples_leaf=4, min_samples_split=4,
+                       n_estimators=520, random_state=42)"
+"XGBoost Classifier tuned ['family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8139721860060843,0.8015267175572519,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"XGBoost Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded', 'deck_encoded_no_missing', 'multiple_cabins', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8131754309720411,0.7709923664122137,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"Random Forest Classifier tuned ['pclass', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8131537012892945,0.7786259541984732,"RandomForestClassifier(max_depth=19, max_features=0.7259556788702394,
+                       min_samples_leaf=3, n_estimators=929, random_state=42)"
+"XGBoost Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8131392148341302,0.7709923664122137,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"SVM Classifier tuned ['family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8131319716065478,0.8015267175572519,"SVC(C=1.834347898661638, gamma='auto', probability=True, random_state=42)"
+"Random Forest Classifier tuned ['sibsp', 'family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8123279733449225,0.7633587786259542,"RandomForestClassifier(max_depth=47, max_features=0.713244787222995,
+                       min_samples_split=6, n_estimators=227, random_state=42)"
+"LightGBM Classifier tuned ['pclass', 'sibsp', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8123279733449225,0.7862595419847328,"LGBMClassifier(learning_rate=0.020584494295802447, max_depth=2,
+               n_estimators=353, random_state=42, verbosity=0)"
+"XGBoost Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person', 'fare']",0.8123279733449225,0.7938931297709924,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"Decision Tree Classifier tuned ['pclass', 'fare_per_person', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded']",0.8123062436621759,0.7633587786259542,"DecisionTreeClassifier(max_depth=9, min_samples_leaf=2, min_samples_split=16,
+                       random_state=42)"
+"LightGBM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch']",0.8122917572070115,0.7633587786259542,"LGBMClassifier(learning_rate=0.020584494295802447, max_depth=2,
+               n_estimators=353, random_state=42, verbosity=0)"
+"Random Forest Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned']",0.8114877589453862,0.7786259541984732,"RandomForestClassifier(max_depth=82, max_features=0.5396921323890798,
+                       min_samples_leaf=13, min_samples_split=10,
+                       n_estimators=166, random_state=42)"
+"LightGBM Classifier tuned ['pclass', 'family_size', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8114587860350573,0.7633587786259542,"LGBMClassifier(learning_rate=0.03142918568673425, max_depth=52,
+               n_estimators=105, random_state=42, verbosity=0)"
+"LightGBM Classifier tuned ['pclass', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.811451542807475,0.7786259541984732,"LGBMClassifier(learning_rate=0.03142918568673425, max_depth=52,
+               n_estimators=105, random_state=42, verbosity=0)"
+"LightGBM Classifier tuned ['family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8114370563523107,0.8015267175572519,"LGBMClassifier(learning_rate=0.020584494295802447, max_depth=2,
+               n_estimators=353, random_state=42, verbosity=0)"
+"LightGBM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person']",0.8106403013182675,0.7709923664122137,"LGBMClassifier(learning_rate=0.662522284353982, max_depth=2, n_estimators=399,
+               random_state=42, verbosity=0)"
+"XGBoost Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned']",0.8106330580906851,0.7557251908396947,"XGBClassifier(colsample_bytree=0.6150926341207776, gamma=2.4959668994237614,
+              learning_rate=0.5720041992091831, max_depth=64, n_estimators=58,
+              random_state=42, scale_pos_weight=0.5360377175443375,
+              subsample=0.9972752553986706)"
+"LightGBM Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8106040851803563,0.7709923664122137,"LGBMClassifier(learning_rate=0.03142918568673425, max_depth=52,
+               n_estimators=105, random_state=42, verbosity=0)"
+"LightGBM Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8106040851803563,0.7709923664122137,"LGBMClassifier(learning_rate=0.03142918568673425, max_depth=52,
+               n_estimators=105, random_state=42, verbosity=0)"
+"Random Forest Classifier tuned ['pclass', 'sibsp', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8097566275532377,0.7862595419847328,"RandomForestClassifier(max_depth=19, max_features=0.3486659872917294,
+                       min_samples_leaf=7, min_samples_split=10,
+                       n_estimators=938, random_state=42)"
+"Decision Tree Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned']",0.8097493843256556,0.7251908396946565,"DecisionTreeClassifier(max_depth=5, min_samples_leaf=14, min_samples_split=8,
+                       random_state=42)"
+"LightGBM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size']",0.8097493843256555,0.7938931297709924,"LGBMClassifier(learning_rate=0.020584494295802447, max_depth=2,
+               n_estimators=353, random_state=42, verbosity=0)"
+"XGBoost Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch']",0.8097493843256555,0.7938931297709924,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"XGBoost Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8089526292916125,0.7557251908396947,"XGBClassifier(colsample_bytree=0.6150926341207776, gamma=2.4959668994237614,
+              learning_rate=0.5720041992091831, max_depth=64, n_estimators=58,
+              random_state=42, scale_pos_weight=0.5360377175443375,
+              subsample=0.9972752553986706)"
+"Random Forest Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person']",0.8089164131537012,0.7633587786259542,"RandomForestClassifier(max_depth=14, max_features=0.49379559636439074,
+                       min_samples_leaf=9, min_samples_split=16,
+                       n_estimators=24, random_state=42)"
+XGBoost Classifier basic,0.8089019266985368,0.7786259541984732,
+"LightGBM Classifier tuned ['family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_scaled']",0.8088874402433724,0.7557251908396947,"LGBMClassifier(learning_rate=0.07404465173409036, max_depth=41, n_estimators=37,
+               random_state=42, verbosity=0)"
+"Decision Tree Classifier tuned ['pclass', 'family_size', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8080906852093293,0.7786259541984732,"DecisionTreeClassifier(max_depth=91, min_samples_leaf=10, min_samples_split=17,
+                       random_state=42)"
+"XGBoost Classifier tuned ['sibsp', 'family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.808047225843836,0.7938931297709924,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"Random Forest Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person', 'fare']",0.8080399826162538,0.7862595419847328,"RandomForestClassifier(max_depth=3, max_features=0.5908929431882418,
+                       min_samples_leaf=4, min_samples_split=4,
+                       n_estimators=520, random_state=42)"
+LightGBM Classifier basic,0.8072214978994641,0.7862595419847328,
+"LightGBM Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned']",0.8072214978994641,0.7480916030534351,"LGBMClassifier(learning_rate=0.020584494295802447, max_depth=2,
+               n_estimators=353, random_state=42, verbosity=0)"
+"XGBoost Classifier tuned ['pclass', 'family_size', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8072070114442995,0.7938931297709924,"XGBClassifier(colsample_bytree=0.587477463547968, gamma=4.910841716647178,
+              learning_rate=0.5166358912710143, max_depth=2, n_estimators=906,
+              random_state=42, scale_pos_weight=1.0310276780589922,
+              subsample=0.9486078789766634)"
+"Decision Tree Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person', 'fare']",0.8072070114442995,0.8015267175572519,"DecisionTreeClassifier(max_depth=8, min_samples_leaf=3, min_samples_split=4,
+                       random_state=42)"
+"LightGBM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person', 'fare']",0.8071997682167174,0.7786259541984732,"LGBMClassifier(learning_rate=0.020584494295802447, max_depth=2,
+               n_estimators=353, random_state=42, verbosity=0)"
+"Random Forest Classifier tuned ['family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_scaled']",0.8071780385339707,0.7786259541984732,"RandomForestClassifier(max_depth=19, max_features=0.6807054515547668,
+                       min_samples_leaf=12, min_samples_split=7,
+                       n_estimators=425, random_state=42)"
+"XGBoost Classifier tuned ['family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_scaled']",0.8064392293205852,0.7480916030534351,"XGBClassifier(colsample_bytree=0.6150926341207776, gamma=2.4959668994237614,
+              learning_rate=0.5720041992091831, max_depth=64, n_estimators=58,
+              random_state=42, scale_pos_weight=0.5360377175443375,
+              subsample=0.9972752553986706)"
+"Decision Tree Classifier tuned ['family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8063667970447632,0.7938931297709924,"DecisionTreeClassifier(max_depth=4, min_samples_leaf=18, min_samples_split=13,
+                       random_state=42)"
+"Decision Tree Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.8055265826452267,0.7862595419847328,"DecisionTreeClassifier(max_depth=14, min_samples_leaf=16, min_samples_split=16,
+                       random_state=42)"
+"LightGBM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp']",0.8055120961900624,0.7938931297709924,"LGBMClassifier(learning_rate=0.020584494295802447, max_depth=2,
+               n_estimators=353, random_state=42, verbosity=0)"
+"Voting Classifier Soft tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins']",0.8047538200339559,0.7786259541984732,
+"Decision Tree Classifier tuned ['family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_scaled']",0.8046573953353615,0.7709923664122137,"DecisionTreeClassifier(max_depth=4, min_samples_leaf=18, min_samples_split=13,
+                       random_state=42)"
+"KNN Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size']",0.8046356656526148,0.7709923664122137,KNeighborsClassifier(n_neighbors=8)
+Voting Classifier Hard basic,0.8038316673909895,0.7480916030534351,
+"Decision Tree Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.803817180935825,0.7862595419847328,"DecisionTreeClassifier(max_depth=14, min_samples_leaf=16, min_samples_split=16,
+                       random_state=42)"
+"KNN Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp']",0.803817180935825,0.7709923664122137,KNeighborsClassifier(n_neighbors=16)
+"LightGBM Classifier tuned ['sibsp', 'family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.8037954512530783,0.8015267175572519,"LGBMClassifier(learning_rate=0.020584494295802447, max_depth=2,
+               n_estimators=353, random_state=42, verbosity=0)"
+"Voting Classifier Hard tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins']",0.8030560271646859,0.7786259541984732,
+"Decision Tree Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded', 'deck_encoded_no_missing', 'multiple_cabins', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8021584818194988,0.7709923664122137,"DecisionTreeClassifier(max_depth=5, min_samples_leaf=14, min_samples_split=8,
+                       random_state=42)"
+"Decision Tree Classifier tuned ['pclass', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.8013037809647979,0.7862595419847328,"DecisionTreeClassifier(max_depth=91, min_samples_leaf=10, min_samples_split=17,
+                       random_state=42)"
+"XGBoost Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person']",0.8013037809647979,0.8015267175572519,"XGBClassifier(colsample_bytree=0.9435432121325587, gamma=3.899377729288119,
+              learning_rate=0.6420316461542878, max_depth=75, n_estimators=634,
+              random_state=42, scale_pos_weight=1.7162871409461378,
+              subsample=0.9492770942635396)"
+"Decision Tree Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person']",0.8012892945096336,0.7709923664122137,"DecisionTreeClassifier(max_depth=39, min_samples_leaf=18, min_samples_split=5,
+                       random_state=42)"
+"KNN Classifier tuned ['family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.7987686513110243,0.7862595419847328,"KNeighborsClassifier(n_neighbors=6, weights='distance')"
+"Decision Tree Classifier tuned ['pclass', 'sibsp', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.7987469216282775,0.7709923664122137,"DecisionTreeClassifier(max_depth=5, min_samples_leaf=14, min_samples_split=8,
+                       random_state=42)"
+Voting Classifier Soft basic,0.7987324351731131,0.7404580152671756,
+"Random Forest Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins']",0.7987251919455309,0.7786259541984732,"RandomForestClassifier(max_depth=64, max_features=0.4667628932479799,
+                       min_samples_leaf=5, min_samples_split=8, n_estimators=30,
+                       random_state=42)"
+"SVM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins']",0.7987179487179488,0.7786259541984732,"SVC(C=1.3949386065204183, gamma='auto', probability=True, random_state=42)"
+"Logistic Regression Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.797044763146458,0.8091603053435115,"LogisticRegression(C=1.834347898661638, max_iter=1000, random_state=42)"
+"Logistic Regression Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.797044763146458,0.8091603053435115,"LogisticRegression(C=1.834347898661638, max_iter=1000, random_state=42)"
+"XGBoost Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins']",0.7962262784296683,0.7633587786259542,"XGBClassifier(colsample_bytree=0.5453032172664104, gamma=3.0919300466654365,
+              learning_rate=0.38246199126716274, max_depth=64, n_estimators=514,
+              random_state=42, scale_pos_weight=0.5645041271999772,
+              subsample=0.8037724259507192)"
+"Decision Tree Classifier tuned ['sibsp', 'family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.7961900622917572,0.7709923664122137,"DecisionTreeClassifier(max_depth=50, min_samples_leaf=8, min_samples_split=5,
+                       random_state=42)"
+Random Forest Classifier basic,0.7953498478922209,0.7557251908396947,
+"KNN Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch']",0.7953208749818919,0.7709923664122137,KNeighborsClassifier(n_neighbors=16)
+"Logistic Regression Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded', 'deck_encoded_no_missing', 'multiple_cabins', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.7945168767202666,0.7786259541984732,"LogisticRegression(C=0.5808361216819946, max_iter=1000, random_state=42)"
+Logistic Regression Classifier basic,0.7936694190931479,0.7862595419847328,
+"Logistic Regression Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp']",0.792778502100536,0.7786259541984732,"LogisticRegression(C=0.34388521115218396, max_iter=1000, random_state=42)"
+"Logistic Regression Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch']",0.792778502100536,0.7786259541984732,"LogisticRegression(C=0.5641157902710026, max_iter=1000, random_state=42)"
+"Logistic Regression Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned']",0.7919817470664928,0.7938931297709924,"LogisticRegression(C=0.5808361216819946, max_iter=1000, random_state=42)"
+"KNN Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned']",0.7919672606113284,0.7480916030534351,"KNeighborsClassifier(n_neighbors=7, weights='distance')"
+"Logistic Regression Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person']",0.7919310444734174,0.7786259541984732,"LogisticRegression(C=0.5808361216819946, max_iter=1000, random_state=42)"
+"Logistic Regression Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person', 'fare']",0.7910908300738809,0.7709923664122137,"LogisticRegression(C=0.34388521115218396, max_iter=1000, random_state=42)"
+"Logistic Regression Classifier tuned ['pclass', 'fare_per_person', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded']",0.7902651021295088,0.7709923664122137,"LogisticRegression(C=0.34388521115218396, max_iter=1000, random_state=42)"
+"KNN Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins']",0.788548457192525,0.7938931297709924,"KNeighborsClassifier(n_neighbors=10, weights='distance')"
+"Logistic Regression Classifier tuned ['pclass', 'sibsp', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.7876792698826597,0.7709923664122137,"LogisticRegression(C=8.324426408004218, max_iter=1000, random_state=42)"
+"Logistic Regression Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size']",0.7859843546284224,0.7862595419847328,"LogisticRegression(C=0.34388521115218396, max_iter=1000, random_state=42)"
+"Decision Tree Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins']",0.7851586266840505,0.7633587786259542,"DecisionTreeClassifier(max_depth=88, min_samples_leaf=12, min_samples_split=7,
+                       random_state=42)"
+"LightGBM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins']",0.7851586266840505,0.7709923664122137,"LGBMClassifier(learning_rate=0.04043358953843135, max_depth=79, n_estimators=24,
+               random_state=42, verbosity=0)"
+"Logistic Regression Classifier tuned ['family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_scaled']",0.7825800376647835,0.7938931297709924,"LogisticRegression(C=0.5808361216819946, max_iter=1000, random_state=42)"
+"Logistic Regression Classifier tuned ['family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.7817180935825003,0.8015267175572519,"LogisticRegression(C=1.834347898661638, max_iter=1000, random_state=42)"
+"KNN Classifier tuned ['sibsp', 'family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.7792626394321309,0.7404580152671756,"KNeighborsClassifier(n_neighbors=6, weights='distance')"
+"SVM Classifier tuned ['sibsp', 'family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.7792481529769665,0.732824427480916,"SVC(C=9.868869366005173, gamma='auto', probability=True, random_state=42)"
+"Logistic Regression Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins']",0.7792191800666377,0.7709923664122137,"LogisticRegression(C=0.34388521115218396, max_iter=1000, random_state=42)"
+"SVM Classifier tuned ['family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_scaled']",0.7766405910473708,0.8244274809160306,"SVC(C=2.3089382562214897, gamma='auto', probability=True, random_state=42)"
+"KNN Classifier tuned ['pclass', 'fare_per_person', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded']",0.7741561639866724,0.7862595419847328,"KNeighborsClassifier(n_neighbors=8, weights='distance')"
+"Logistic Regression Classifier tuned ['pclass', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.7740837317108504,0.7709923664122137,"LogisticRegression(C=3.910606075732408, max_iter=1000, random_state=42)"
+"Logistic Regression Classifier tuned ['pclass', 'family_size', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.7732652469940605,0.7862595419847328,"LogisticRegression(C=0.31313292455558583, max_iter=1000, random_state=42)"
+Decision Tree Classifier basic,0.7724322758221064,0.7480916030534351,
+"SVM Classifier tuned ['pclass', 'fare_per_person', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded']",0.7715848181949878,0.7557251908396947,"SVC(C=7.080725777960454, gamma='auto', probability=True, random_state=42)"
+"SVM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person']",0.7715558452846588,0.7709923664122137,"SVC(C=5.396921323890798, gamma='auto', probability=True, random_state=42)"
+"KNN Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person']",0.749550919889903,0.7175572519083969,"KNeighborsClassifier(n_neighbors=7, weights='distance')"
+"SVM Classifier tuned ['pclass', 'sibsp', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.7495291902071564,0.7022900763358778,"SVC(C=7.7513282336111455, gamma='auto', probability=True, random_state=42)"
+"SVM Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.7486817325800377,0.7404580152671756,"SVC(C=9.868869366005173, gamma='auto', probability=True, random_state=42)"
+"SVM Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person', 'fare']",0.7477908155874258,0.6946564885496184,"SVC(C=9.868869366005173, gamma='auto', probability=True, random_state=42)"
+"SVM Classifier tuned ['pclass', 'family_size', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.7427422859626249,0.7557251908396947,"SVC(C=9.868869366005173, gamma='auto', probability=True, random_state=42)"
+"SVM Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.7427350427350428,0.732824427480916,"SVC(C=5.396921323890798, gamma='auto', probability=True, random_state=42)"
+"KNN Classifier tuned ['family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_scaled']",0.7427060698247139,0.7404580152671756,"KNeighborsClassifier(n_neighbors=6, weights='distance')"
+"SVM Classifier tuned ['pclass', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.7368028393452123,0.7099236641221374,"SVC(C=9.868869366005173, gamma='auto', probability=True, random_state=42)"
+"KNN Classifier tuned ['sex_encoded', 'pclass', 'deck_encoded', 'title_categorical_encoded', 'multiple_cabins', 'family_size', 'sibsp', 'parch', 'fare_per_person', 'fare']",0.7359481384905114,0.7251908396946565,"KNeighborsClassifier(n_neighbors=12, weights='distance')"
+"KNN Classifier tuned ['pclass', 'parch', 'family_size', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.7359481384905113,0.7175572519083969,KNeighborsClassifier(n_neighbors=3)
+"KNN Classifier tuned ['pclass', 'family_size', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.7351006808633928,0.7099236641221374,KNeighborsClassifier(n_neighbors=7)
+"SVM Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded', 'deck_encoded_no_missing', 'multiple_cabins', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.7342604664638563,0.6870229007633588,"SVC(C=9.868869366005173, gamma='auto', probability=True, random_state=42)"
+"KNN Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare', 'fare_per_person_scaled']",0.7316963638997538,0.7251908396946565,KNeighborsClassifier(n_neighbors=3)
+"KNN Classifier tuned ['pclass', 'sibsp', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'sex_encoded', 'embarked_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.7299942054179342,0.7022900763358778,"KNeighborsClassifier(n_neighbors=10, weights='distance')"
+"KNN Classifier tuned ['pclass', 'parch', 'fare_per_person', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.729986962190352,0.7099236641221374,"KNeighborsClassifier(n_neighbors=12, weights='distance')"
+"KNN Classifier tuned ['pclass', 'sibsp', 'parch', 'family_size', 'fare_per_person', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'sex_encoded', 'embarked_encoded', 'deck_encoded_no_missing', 'multiple_cabins', 'fare_per_person_binned', 'fare', 'fare_per_person_scaled']",0.72916123424598,0.6793893129770993,"KNeighborsClassifier(n_neighbors=8, weights='distance')"
+"Logistic Regression Classifier tuned ['sibsp', 'family_size', 'is_alone', 'deck_encoded', 'age_group_encoded', 'title_categorical_encoded', 'multiple_cabins', 'fare_per_person_binned']",0.7189989859481385,0.6717557251908397,"LogisticRegression(C=0.34388521115218396, max_iter=1000, random_state=42)"
+KNN Classifier basic,0.7105244096769521,0.7404580152671756,
+Naive Bayes Classifier basic,0.6995002172968275,0.6717557251908397,
+SVM Classifier basic,0.6748515138345648,0.6641221374045801,
+Random guess,,0.5190839694656488,

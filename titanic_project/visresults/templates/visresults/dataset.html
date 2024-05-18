@@ -1,0 +1,29 @@
+{% extends "visresults/base.html" %}
+{% block content %}
+<div class="datasetTable">
+    {% include "pagination.html" with page=rows %}
+    <table class="titanicTable" class="display">
+        <thead>
+            <tr>
+                {% for column in columns %}
+                <th class="colField">{{ column }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr class="rowfields">
+                {% for value in row %}
+                <td class="field">{{ value }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+
+<script>
+
+</script>
+{% endblock %}

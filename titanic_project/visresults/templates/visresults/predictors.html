@@ -1,0 +1,137 @@
+{% extends "visresults/base.html" %}
+{% block content %}
+
+{% include "search.html" %}
+
+<div class="chart">
+    <canvas id="resultsChart" data-chart-data="{{ chart_data }}"></canvas>
+</div>
+<script>
+    var csrftoken = getCookie('csrftoken');
+    var myChart = null;
+    var charData = null;
+
+    function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    function remove_p() {
+        var paragraphs = document.querySelectorAll('.chart p');
+        paragraphs.forEach(function (paragraph) {
+            paragraph.parentNode.removeChild(paragraph);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        let chartData = JSON.parse('{{ chart_data|escapejs }}');
+        render_chart(chartData);
+
+        const chart_h = document.querySelector('.chart');
+        chart_h.style.height = '6920px';
+
+
+        document.getElementById('search-box').addEventListener('keyup', function () {
+            var input = this.value;
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/vis/', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.setRequestHeader('X-CSRFToken', csrftoken);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    let chartData = JSON.parse(xhr.responseText);
+                    if (chartData.values) {
+                        remove_p();
+                        var count = chartData.values.length;
+                        count = count * 10;
+                        chart_h.style.height = count + 'px';
+                        render_chart(JSON.parse(xhr.responseText));
+
+
+                    }
+                    if (chartData.id) {
+                        remove_p();
+
+                        var chartdiv = document.querySelector('.chart');
+                        var newElement1 = document.createElement('p');
+                        newElement1.textContent = 'ID: ' + chartData.id;
+
+                        var newElement2 = document.createElement('p');
+                        newElement2.textContent = 'Cross Validation Score: ' + chartData.cross_val_score;
+
+                        var newElement3 = document.createElement('p');
+                        newElement3.textContent = 'Best Estimators: ' + chartData.best_estimators;
+
+                        var newElement4 = document.createElement('p');
+                        newElement4.textContent = 'Features: ' + chartData.features;
+                        var firstChild = chartdiv.firstChild;
+                        chartdiv.insertBefore(newElement1, firstChild);
+                        chartdiv.insertBefore(newElement2, firstChild);
+                        chartdiv.insertBefore(newElement3, firstChild);
+                        chartdiv.insertBefore(newElement4, firstChild);
+                    }
+                }
+            };
+            xhr.send('input_data=' + encodeURIComponent(input));
+        });
+
+    });
+
+    function render_chart(chartData) {
+        var ctx = document.getElementById('resultsChart').getContext('2d');
+
+        if (myChart) {
+            myChart.destroy();
+        }
+
+        myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: chartData.labels,
+                datasets: [{
+                    label: 'Accuracy score',
+                    data: chartData.values,
+                    backgroundColor: chartData.colors,
+                    borderColor: chartData.colors,
+                    borderWidth: 1
+                }]
+            },
+
+            options: {
+                barPercentage: 0.8,
+                indexAxis: 'y',
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            offset: false
+                        },
+                        ticks: {
+                            padding: 5,
+                            crossAlign: 'start'
+                        }
+                    },
+                    x: {
+                        grid: {
+                            offset: false
+                        }
+                    },
+
+                }
+
+            }
+        });
+    }
+</script>
+{% endblock %}
