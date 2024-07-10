@@ -13,7 +13,6 @@ This project visualizes and analyzes the Titanic dataset using various machine l
 ![Correlation Matrix](correlation_matrix.png)
 
 ### Age Distribution and Survival Analysis
-![Survival Analysis and Age](survival_analysis_and_age.png)
 
 ### Pie Charts
 ![Pie Charts](pie_charts.png)
